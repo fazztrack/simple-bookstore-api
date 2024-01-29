@@ -23,7 +23,7 @@ Proyek Simple Book Store API merupakan API yang bertujuan untuk menyimpan data b
 1. **Prasyarat**: Pastikan Anda telah menginstal:
    1. [Java LTS v17](https://www.oracle.com/java/technologies/downloads/#jdk17-windows).
    2. [Maven](https://maven.apache.org/install.html) : untuk maven opsional, boleh tidak diinstall.
-2. **Clone Repositori**: `git clone https://github.com/username/nama-proyek.git`
+2. **Clone Repositori**: `git clone https://github.com/fazztrack/simple-bookstore-api.git`
 3. **Setup Database**: sesuaikan credential database dan nama database pada file application.properties.
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/yourdb
@@ -52,8 +52,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 ```
 
 4. **Build dan Jalankan**: 
-   1. Telah install maven: `mvn spring-boot:run`
-   2. Jika tidak menginstall maven: `mvnw spring-boot:run`
+   1. Jika menginstall maven: `mvn spring-boot:run`
+   2. Jika **tidak** menginstall maven: `mvnw spring-boot:run`
 5. **Akses API**: Buka [http://localhost:4000/v1/swagger-ui/index.html](http://localhost:4000/v1/swagger-ui/index.html) di browser Anda.
 
 ## Dokumentasi API
